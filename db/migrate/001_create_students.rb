@@ -3,8 +3,6 @@ class CreateStudents < ActiveRecord::Migration
     create_table :students do |s|
       s.string :firts_name
       s.string :last_name
-
-      s.timestamps null: false
     end
   end
 end
